@@ -5,10 +5,10 @@ rules:
     severity: error
     given: $.info
     then:
-      field: 1.0.0
+      field: "1.0.0"
       function: truthy
   operation-id-required:
-    description: 05
+    description: listarCuentasCliente
     severity: error
     given: $.paths[*][get,post,put,patch,delete]
     then:
